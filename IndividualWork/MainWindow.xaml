@@ -1,0 +1,36 @@
+﻿<Window x:Class="IndividualWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndividualWork"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid >
+        <Label
+            VerticalAlignment="Top"
+            Background="Azure"
+            Content="Ռեյտինգային միավորները և եզրափակիչ քննության միավոների տարբերությունը  K = 30"
+            Height="35"
+            Margin="162,10,158.6,0"
+        />
+        
+     
+
+        <ListBox
+            x:Name="st_list" 
+            Width="296"
+            HorizontalAlignment="Right"
+            Margin="0,135,275.6,10" 
+            />
+        <ListBox
+            x:Name="final_list" 
+            Width="260"
+            HorizontalAlignment="Right" 
+            Margin="0,135,9.6,10"
+            />
+        
+
+    </Grid>
+</Window>
